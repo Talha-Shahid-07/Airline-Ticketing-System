@@ -12,7 +12,7 @@ public class ConnectionToDB {
             Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
             
             // Use getResource to get the relative path
-            String url = "C:\\Users\\Talha Shahid\\Desktop\\AirlineTicketingSystem\\AirlineTicketingSystem\\AirlineTicketingSystem\\src\\Resources\\Information.accdb";
+            String url = "path-to-file";
             
             // Connect to the database
             con = DriverManager.getConnection("jdbc:ucanaccess://" + url);
